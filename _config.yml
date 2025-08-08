@@ -4,7 +4,7 @@
 
 title: MALL-Lab # the website title (if blank, full name will be used instead)
 first_name: Mall
-middle_name: Try
+middle_name:
 last_name: Lab
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -48,9 +48,9 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -191,6 +191,7 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - _pages/blog.md
 keep_files:
   - CNAME
   - .nojekyll

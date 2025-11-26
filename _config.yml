@@ -1,8 +1,7 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
-
-title: MALL - Lab # the website title (if blank, full name will be used instead)
+title: Machine Learning in Life Sciences Laboratory # the website title (if blank, full name will be used instead)
 first_name: Mall
 middle_name:
 last_name: Lab

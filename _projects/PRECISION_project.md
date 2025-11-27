@@ -5,7 +5,6 @@ description: Explainable graph convolutional networks for innovation in precisio
 img: assets/img/PRECISION_short.jpg
 importance: 1
 category: national
-giscus_comments: true
 ---
 
 ADD INFO ABOUT PRECISION HERE

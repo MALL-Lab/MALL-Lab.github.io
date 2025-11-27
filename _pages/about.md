@@ -22,7 +22,7 @@ announcements:
   limit: 3 # leave blank to include all the news in the `_news` folder
 ---
 
-We investigate omic data using machine learning to unveil patterns in complex diseases, identify biomarkers, and predict outcomes and drug responses, contributing to the advancement of understanding and personalization in life sciences research.
+Hi!! We investigate omic data using machine learning to unveil patterns in complex diseases, identify biomarkers, and predict outcomes and drug responses, contributing to the advancement of understanding and personalization in life sciences research.
 
 ### Research Lines
 

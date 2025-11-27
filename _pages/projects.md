@@ -5,7 +5,7 @@ permalink: /projects/
 description: Our current and past funding sources
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [national, international]
 horizontal: false
 ---
 

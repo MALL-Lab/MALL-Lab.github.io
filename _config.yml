@@ -10,7 +10,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Website of the Machine Learning in Life Sciences Laboratory.
 footer_text: >
-  Powered by <a href="https://udc.gal/" target="_blank">Universidade da Coruña</a>.
+  <a href="https://udc.gal/" target="_blank">Universidade da Coruña</a>.
 keywords: computational biology, cancer, data integration, machine learning, microbiome, proteome, transcriptome # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: Temporal_MALL_logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

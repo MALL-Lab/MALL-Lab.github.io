@@ -41,12 +41,7 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
+          section: "News",},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
@@ -81,6 +76,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-precision",
+          title: 'PRECISION',
+          description: "Explainable graph convolutional networks for innovation in precision oncology and drug resistance in cancer",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/PRECISION_project/";
             },},{id: "projects-repo-sudoe-project",
           title: 'RePo-SUDOE project',
           description: "Drug Repurposing for Effective and Accelerated Drug Development in the SUDOE Space",

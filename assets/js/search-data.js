@@ -33,12 +33,7 @@ ninja.data = [{
         },{id: "news-new-webpage-under-construction",
           title: 'New webpage under construction!!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-adding-info-about-us-publications-projects-and-teams",
+          section: "News",},{id: "news-adding-info-about-us-publications-projects-and-teams",
           title: 'Adding info about us, publications, projects and teams!',
           description: "",
           section: "News",},{id: "projects-precision",

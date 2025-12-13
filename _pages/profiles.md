@@ -18,8 +18,8 @@ profiles:
       <p>Edificio Área Científica - Universidade da Coruña</p>
       <p>15071 A Coruña, Spain</p>
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: jlinares_pic.jpg
+    content: about_jlinares.md
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>

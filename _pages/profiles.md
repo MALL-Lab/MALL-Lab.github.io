@@ -22,9 +22,9 @@ profiles:
     content: about_jlinares.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+      <p>Wellcome Genome Campus</p>
+      <p>European Bioinformatics Institute (EMBL-EBI)</p>
+      <p>CB10 1SD Hinxton, Cambridgeshire, UK</p>
   - align: right
     image: dfedreira_pic.webp
     content: about_dfedreira.md

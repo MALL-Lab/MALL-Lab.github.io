@@ -24,5 +24,5 @@ This project brings together, for the first time, partners from different SUDOE 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/RePo_SUDOE.png" title="RePo image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/RePo_SUDOE.png" title="RePo image" class="img-fluid rounded z-depth-1" %}
 </div>

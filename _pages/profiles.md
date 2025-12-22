@@ -51,8 +51,6 @@ profiles:
       <p>15008 A Coruña, Spain</p>
 ---
 
-
-
 <div style="height:3rem"></div>
 <div style="text-align:center; margin-bottom:3rem;">
   <img src="/assets/img/about/Lab_photo.jpg" alt="Lab photo" style="max-width:100%;height:auto;display:inline-block;" />

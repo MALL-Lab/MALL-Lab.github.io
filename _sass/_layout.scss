@@ -38,30 +38,6 @@ body.sticky-bottom-footer {
   }
 }
 
-// Lab logo in about page: positioned top-right and responsively scaled
-.post-header {
-  position: relative;
-}
-
-.post-header .lab-logo,
-.lab-logo {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  width: clamp(64px, 10vw, 160px);
-  height: auto;
-  pointer-events: none;
-  opacity: 0.95;
-}
-
-@media (max-width: 768px) {
-  .post-header .lab-logo,
-  .lab-logo {
-    top: 0.25rem;
-    right: 0.25rem;
-    width: 64px;
-  }
-}
 
 // TODO: redefine content layout.
 

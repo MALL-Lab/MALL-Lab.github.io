@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New collab publication! [Exploiting the synergy between computational and experimental biophysics for efficient cancer drug development](https://doi.org/10.1016/j.ejmcr.2025.100320)
+New collab publication available! [Exploiting the synergy between computational and experimental biophysics for efficient cancer drug development](https://doi.org/10.1016/j.ejmcr.2025.100320)

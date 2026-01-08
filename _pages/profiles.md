@@ -63,6 +63,37 @@ Jointly Supervised Researchers
 ---
 
 <div style="height:3rem"></div>
+<div class="user-category">
+  <h2 class="category-title">Jointly Supervised Researchers</h2>
+  <div class="user-list">
+    <div class="user-item">
+      <div class="user-info">
+        <h3>Iván Rodríguez Buján</h3>
+        <p class="user-subtext">PhD Student</p>
+        <p class="user-affiliation"><em>Jointly supervised with Prof. Jaime Fagúndez Díaz</em></p>
+        <div class="user-bio">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<hr style="margin: 3rem 0;">
+
+<div class="user-category">
+  <h2 class="category-title">Lab Alumni</h2>
+  <div class="user-list">
+    <div class="user-item">
+      <div class="user-info">
+        <h3>Paula Carracedo-Reboredo, PhD</h3>
+        <p class="user-subtext">Former PhD Student / Researcher</p>
+        </div>
+    </div>
+
+  </div>
+</div>
 <div style="text-align:center; margin-bottom:3rem;">
   <img src="/assets/img/about/Lab_photo.jpg" alt="Lab photo" style="max-width:100%;height:auto;display:inline-block;" />
 </div>

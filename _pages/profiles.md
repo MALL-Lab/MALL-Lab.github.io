@@ -49,6 +49,17 @@ profiles:
       <p>2nd Floor, C-47</p>
       <p>Elviña Campus, CITIC s/n</p>
       <p>15008 A Coruña, Spain</p>
+
+Jointly Supervised Researchers
+
+  - align: right
+    image: about/lmartinez_pic.jpg
+    content: about_lmartinez.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>2nd Floor, C-47</p>
+      <p>Elviña Campus, CITIC s/n</p>
+      <p>15008 A Coruña, Spain</p>
 ---
 
 <div style="height:3rem"></div>

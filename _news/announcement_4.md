@@ -1,0 +1,1 @@
+New collab publication available! [Determination of the presence of pharmacological residues in human feces by liquid chromatography-tandem mass spectrometry](https://doi.org/10.1016/j.foodres.2025.118059)

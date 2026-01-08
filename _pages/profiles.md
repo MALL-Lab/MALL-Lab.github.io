@@ -56,28 +56,33 @@ profiles:
 <div class="user-category">
   <h2 class="category-title">Jointly Supervised Researchers</h2><br />
   <div class="user-list">
-    <ul style="list-style-type: disc; margin-left: 1.5rem; line-height: 1.6;">
-      <li class="user-item" style="margin-bottom: 2rem;">
-        <div class="user-info">
-          <h4 style="display: inline; margin: 0;">Iván Rodríguez Buján</h4>
-          <span class="user-subtext" style="color: #666; margin-left: 10px;">— PhD Student</span>
-          <p class="user-affiliation" style="margin: 5px 0;">
-            <em>Jointly supervised with <strong>Prof. Jaime Fagúndez Díaz</strong></em>
-          </p>
-          <div class="user-bio" style="font-size: 0.95rem; color: #444; margin-top: 8px;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    <ul style="list-style-type: disc; margin-left: 1.5rem; line-height: 1.6; padding: 0;">
+      <li class="user-item" style="margin-bottom: 3rem; list-style-position: outside;">
+        <div class="user-container" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
+          <div class="user-info" style="flex: 1; min-width: 250px;">
+            <h4 style="display: inline; margin: 0;">Iván Rodríguez Buján</h4>
+            <span class="user-subtext" style="color: #666; margin-left: 10px;">— PhD Student</span>
+            <p class="user-affiliation" style="margin: 5px 0;">
+              <em>Jointly supervised with <strong>Prof. Jaime Fagúndez Díaz</strong></em>
+            </p>
+            <div class="user-bio" style="font-size: 0.95rem; margin-top: 8px; text-align: justify;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+          <div class="user-photo" style="flex-shrink: 0;">
+            <img src="/assets/img/about/cfernandez_pic.jpg" alt="Iván Rodríguez Buján" 
+                 style="width: 150px; height: 180px; object-fit: cover; border-radius: 4px; display: block;" />
           </div>
         </div>
       </li>
-
-      </ul>
+    </ul>
   </div>
 </div>
 
 <hr style="margin: 3rem 0;">
 
 <div class="user-category">
-  <h2 class="category-title">Lab Alumni</h2>
+  <h2 class="category-title">Lab Alumni</h2><br />
   <div class="user-list">
     <ul style="list-style-type: disc; margin-left: 1.5rem; line-height: 1.8;">      
       <li class="user-item">
@@ -89,7 +94,9 @@ profiles:
       </ul>
   </div>
 </div>
-
+<br />
+<br />
+<br />
 <div style="text-align:center; margin-bottom:3rem;">
   <img src="/assets/img/about/Lab_photo.jpg" alt="Lab photo" style="max-width:100%;height:auto;display:inline-block;" />
 </div>

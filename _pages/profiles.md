@@ -66,11 +66,11 @@ profiles:
               <em>Jointly supervised with <strong>Prof. Jaime Fagúndez Díaz</strong></em>
             </p>
             <div class="user-bio" style="font-size: 0.95rem; margin-top: 8px; text-align: justify;">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Iván Rodríguez Buján is a Xunta de Galicia funded predoctoral researcher at the University of A Coruña. His research focuses on the application of bioinformatics approaches to study phylogeography and population structure in different plant species. He is particularly interested in integrating multiple sources of evidence, such as genetic and morphometric data, to achieve higher-resolution insights into evolutionary and population processes, as well as in developing or adapting methods that can be transferred to other species. In addition, his research interests include biodiversity data management and the study of Galician flora, with a special emphasis on ferns.
             </div>
           </div>
           <div class="user-photo" style="flex-shrink: 0;">
-            <img src="/assets/img/about/cfernandez_pic.jpg" alt="Iván Rodríguez Buján" 
+            <img src="/assets/img/about/irodriguez_pic.jpg" alt="Iván Rodríguez Buján" 
                  style="width: 150px; height: 180px; object-fit: cover; border-radius: 4px; display: block;" />
           </div>
         </div>

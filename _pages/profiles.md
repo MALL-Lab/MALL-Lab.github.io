@@ -54,8 +54,8 @@ profiles:
     content: about_smartin.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>2nd Floor, C-40</p>
-      <p>Elviña Campus, CITIC s/n</p>
+      <p>CITIC-CICA</p>
+      <p>Elviña Campus,</p>
       <p>15008 A Coruña, Spain</p>
 ---
 

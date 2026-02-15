@@ -20,6 +20,16 @@ layout: page
           {% if profile.more_info %}
             <div class="more-info">{{ profile.more_info }}</div>
           {% endif %}
+          {% if profile.social %}
+            <div class="profile-social" style="font-size: 1.3rem; margin-top: 10px;">
+              {% if profile.social.github %}<a href="{{ profile.social.github }}" title="GitHub"><i class="fab fa-github"></i></a>{% endif %}
+              {% if profile.social.orcid %}<a href="{{ profile.social.orcid }}" title="ORCID" style="margin-left: 8px;"><i class="ai ai-orcid"></i></a>{% endif %}
+              {% if profile.social.researcherid %}<a href="{{ profile.social.researcherid }}" title="ResearcherID" style="margin-left: 8px;"><i class="ai ai-researcherid"></i></a>{% endif %}
+              {% if profile.social.scopus %}<a href="{{ profile.social.scopus }}" title="Scopus" style="margin-left: 8px;"><i class="ai ai-scopus"></i></a>{% endif %}
+              {% if profile.social.google_scholar %}<a href="{{ profile.social.google_scholar }}" title="Google Scholar" style="margin-left: 8px;"><i class="ai ai-google-scholar"></i></a>{% endif %}
+              {% if profile.social.linkedin %}<a href="{{ profile.social.linkedin }}" title="LinkedIn" style="margin-left: 8px;"><i class="fab fa-linkedin"></i></a>{% endif %}
+            </div>
+          {% endif %}
         </div>
 
         <div class="clearfix" style="text-align:justify; text-justify:inter-word;">

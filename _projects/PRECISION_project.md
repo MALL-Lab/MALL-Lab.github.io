@@ -13,25 +13,25 @@ The project focuses on developing and applying various AI methods, Graph Convolu
 
 ### Main Objectives
 
-* **Objective 1: Integrating prior knowledge for explainable novel insights.** Focuses on integrating biological components using KAGNN and XAI to identify novel therapeutic targets and drug repurposing opportunities for TNBC.
-* **Objective 2: Enhancing synergy between medical expertise and AI.** approach to foster continual bidirectional human-machine interaction, ensuring clinical insights are integral to model development.
-* **Objective 3: Computational mapping of tumor microenvironment interactions.** Explores cellular heterogeneity and diversity within tumors using both bulk and single-cell sequencing technologies to enhance targeted therapy development.
-* **Objective 4: Mining patterns of drug resistance mechanisms.** Identifies graphical patterns associated with resistance by integrating transcriptomic and drug resistance data (DRMref) with machine learning models.
-* **Objective 5: Bridging Theory and Practice.** Aims to transition from abstract Kolmogorov-Arnold theoretical representations to practical applications by exploiting the structural advantages of GNNs.
+- **Objective 1: Integrating prior knowledge for explainable novel insights.** Focuses on integrating biological components using KAGNN and XAI to identify novel therapeutic targets and drug repurposing opportunities for TNBC.
+- **Objective 2: Enhancing synergy between medical expertise and AI.** approach to foster continual bidirectional human-machine interaction, ensuring clinical insights are integral to model development.
+- **Objective 3: Computational mapping of tumor microenvironment interactions.** Explores cellular heterogeneity and diversity within tumors using both bulk and single-cell sequencing technologies to enhance targeted therapy development.
+- **Objective 4: Mining patterns of drug resistance mechanisms.** Identifies graphical patterns associated with resistance by integrating transcriptomic and drug resistance data (DRMref) with machine learning models.
+- **Objective 5: Bridging Theory and Practice.** Aims to transition from abstract Kolmogorov-Arnold theoretical representations to practical applications by exploiting the structural advantages of GNNs.
 
 ---
 
 ### Project Details
 
-| | |
-| :--- | :--- |
-| **Full Title** | Explainable graph convolutional networks for innovation in precision oncology and drug resistance in cancer (PRECISION) |
-| **Identifier** | PID2024-162441OA-I00 |
-| **Total Funding** | 118,500 € |
-| **Funding Agency** | Ministerio de Ciencia, Innovación y Universidades. Agencia Estatal de Investigación. EDRF/EU |
-| **Programme** | Programa Estatal para la Investigación y el Desarrollo Experimental |
-| **Subrogramme** | Subprograma Estatal de Generación de Conocimiento Cientíﬁco-Técnico y Desarrollo Experimental |
-| **Duration** | 01/09/2025 - 31/08/2028 |
+|                    |                                                                                                                         |
+| :----------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| **Full Title**     | Explainable graph convolutional networks for innovation in precision oncology and drug resistance in cancer (PRECISION) |
+| **Identifier**     | PID2024-162441OA-I00                                                                                                    |
+| **Total Funding**  | 118,500 €                                                                                                               |
+| **Funding Agency** | Ministerio de Ciencia, Innovación y Universidades. Agencia Estatal de Investigación. EDRF/EU                            |
+| **Programme**      | Programa Estatal para la Investigación y el Desarrollo Experimental                                                     |
+| **Subrogramme**    | Subprograma Estatal de Generación de Conocimiento Cientíﬁco-Técnico y Desarrollo Experimental                           |
+| **Duration**       | 01/09/2025 - 31/08/2028                                                                                                 |
 
 ---
 

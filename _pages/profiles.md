@@ -47,7 +47,7 @@ profiles:
     more_info: >
       <p>2nd Floor, C-46</p>
       <p>Elviña Campus, CITIC s/n</p>
-      <p>15008 A Coruña, Spain</p>  
+      <p>15008 A Coruña, Spain</p>
   - align: right
     image: about/lmartinez_pic.jpg
     content: about_lmartinez.md
@@ -114,4 +114,3 @@ profiles:
 <div style="text-align:center; margin-bottom:3rem;">
   <img src="/assets/img/about/Lab_photo.jpg" alt="Lab photo" style="max-width:100%;height:auto;display:inline-block;" />
 </div>
-

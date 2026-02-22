@@ -17,6 +17,13 @@ profiles:
       <p>Despacho 1.07</p>
       <p>Edificio Área Científica - Universidade da Coruña</p>
       <p>15071 A Coruña, Spain</p>
+    social:
+      github: "https://github.com/cafernandezlo"
+      orcid: "http://orcid.org/0000-0003-0413-5677"
+      google_scholar: "https://scholar.google.com/citations?user=gE-7NE4AAAAJ"
+      researcherid: "http://www.researcherid.com/rid/D-2469-2014"
+      scopus: "http://www.scopus.com/authid/detail.uri?authorId=55062924200"
+      linkedin: "https://www.linkedin.com/in/cafernandezlo"
   - align: left
     image: about/jlinares_pic.jpg
     content: about_jlinares.md

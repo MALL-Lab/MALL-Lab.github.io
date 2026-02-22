@@ -1,3 +1,3 @@
 Carlos Fernandez-Lozano is a tenured professor of Computer Science at the University of A Coruña and a researcher at the Centre for Information and Communications Technology Research (CITIC). His research focuses on the convergence of biology and machine learning, using computational approaches to analyze biological interactions in diseases.
- 
+
 His main lines of research include the development of computational methods for multi-omics data integration, biological network analysis, and biomarker discovery from large volumes of biological data, with a strong emphasis on cancer studies. Coordinator of the Machine Learning in Life Sciences Laboratory and serves as an academic editor for journals like PLOS One, or BMC Molecular and Cell Biology.

@@ -40,6 +40,13 @@ profiles:
       <p>2nd Floor, C-41</p>
       <p>Elviña Campus, CITIC s/n</p>
       <p>15008 A Coruña, Spain</p>
+    social:
+      github: "https://github.com/DiegoFE94"
+      orcid: "https://orcid.org/0000-0001-6906-3374"
+      google_scholar: "https://scholar.google.com/citations?user=wsliRjsAAAAJ&hl=es&oi=ao"
+      researcherid: "http://www.researcherid.com/"
+      scopus: "https://www.scopus.com/authid/detail.uri?authorId=57226444334&origin=resultslist
+      linkedin: "https://www.linkedin.com/in/diego-fernandez-edreira/"
   - align: left
     image: about/falak_pic.png
     content: about_falak.md

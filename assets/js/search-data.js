@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-team",
-          title: "Team",
-          description: "Meet the people behind our research",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
         },{id: "news-new-webpage-under-construction",
           title: 'New webpage under construction!!',
           description: "",
@@ -62,8 +55,8 @@ ninja.data = [{
           description: "Explainable graph convolutional networks for innovation in precision oncology and drug resistance in cancer",
           section: "Projects",handler: () => {
               window.location.href = "/projects/PRECISION_project/";
-            },},{id: "projects-repo-sudoe-project",
-          title: 'RePo-SUDOE project',
+            },},{id: "projects-repo-sudoe",
+          title: 'RePo-SUDOE',
           description: "Drug Repurposing for Effective and Accelerated Drug Development in the SUDOE Space",
           section: "Projects",handler: () => {
               window.location.href = "/projects/REPOSUDOE_project/";

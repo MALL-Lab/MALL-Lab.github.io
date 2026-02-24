@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RePo-SUDOE project
+title: RePo-SUDOE
 description: Drug Repurposing for Effective and Accelerated Drug Development in the SUDOE Space
 img: assets/img/projects/RePo_SUDOE_short.png
 importance: 1

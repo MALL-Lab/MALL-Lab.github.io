@@ -48,6 +48,13 @@ profiles:
       scopus: "https://www.scopus.com/authid/detail.uri?authorId=57226444334&origin=resultslist"
       linkedin: "https://www.linkedin.com/in/diego-fernandez-edreira/"
   - align: left
+    image: about/pguijarro.png
+    content: about_pguijarro.md
+    image_circular: false # crops the image to make it circular
+    social:
+      orcid: "https://orcid.org/0000-0002-8456-0085"
+      google_scholar: "https://scholar.google.com/citations?user=O7TpeZoAAAAJ&hl=en"
+  - align: right
     image: about/falak_pic.png
     content: about_falak.md
     image_circular: false # crops the image to make it circular
@@ -55,7 +62,7 @@ profiles:
       <p>2nd Floor, C-46</p>
       <p>Elviña Campus, CITIC s/n</p>
       <p>15008 A Coruña, Spain</p>
-  - align: right
+  - align: left
     image: about/lmartinez_pic.jpg
     content: about_lmartinez.md
     image_circular: false # crops the image to make it circular
@@ -63,7 +70,7 @@ profiles:
       <p>2nd Floor, C-47</p>
       <p>Elviña Campus, CITIC s/n</p>
       <p>15008 A Coruña, Spain</p>
-  - align: left
+  - align: right
     image: about/smartin_pic.jpg
     content: about_smartin.md
     image_circular: false # crops the image to make it circular

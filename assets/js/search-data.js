@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-awards",
+          title: "Awards",
+          description: "Awards, prizes and competitive fellowships received by members of the MALL Lab",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awards/";
+          },
         },{id: "nav-team",
           title: "Team",
           description: "Meet the people behind our research",
@@ -56,6 +63,12 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-new-collab-publication-available-comparative-evaluation-of-deep-learning-architectures-for-bioclast-classification-in-atomic-force-microscopy-images",
           title: 'New collab publication available! Comparative evaluation of deep learning architectures for bioclast classification...',
+          description: "",
+          section: "News",},{id: "news-diego-fernández-edreira-successfully-defended-his-phd-thesis-computational-analysis-of-the-human-microbiome-as-a-source-of-clinical-biomarkers-earning-the-highest-grade-sobresaliente-cum-laude-congratulations-dr-fernández-edreira",
+          title: 'Diego Fernández-Edreira successfully defended his PhD thesis “Computational Analysis of the Human Microbiome...',
+          description: "",
+          section: "News",},{id: "news-raúl-mouzo-quiza-has-won-the-first-prize-at-the-xi-premios-tfg-aplicado-del-gei-for-his-work-plataforma-integrada-para-la-simulación-de-docking-molecular-y-el-análisis-de-firmas-genéticas-en-entornos-hpc-y-cloud-congratulations",
+          title: 'Raúl Mouzo Quiza has won the First Prize at the XI Premios TFG...',
           description: "",
           section: "News",},{id: "projects-precision",
           title: 'PRECISION',

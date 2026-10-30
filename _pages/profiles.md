@@ -112,7 +112,10 @@ profiles:
             <h4 style="display: inline; margin: 0;">Paula Guijarro Sánchez, PhD</h4>
             <span class="user-subtext" style="color: #666; margin-left: 10px;">— Former PhD Student</span>
             <p class="user-affiliation" style="margin: 5px 0;">
-              <em>PhD defended September 2026, <strong>Sobresaliente Cum Laude</strong></em>
+              <em>Co-supervised with Dr. Alejandro Beceiro Casas (INIBIC)</em>
+            </p>
+            <p class="user-affiliation" style="margin: 5px 0;">
+              <em>PhD defended September 2026, <strong>Sobresaliente Cum Laude</strong> with International Mention</em>
             </p>
             <div class="user-bio" style="font-size: 0.95rem; margin-top: 8px; text-align: justify;">
               Paula completed her PhD at the University of A Coruña (INIBIC) on bioinformatics methodologies for the genomic analysis of antibiotic resistance in <em>Acinetobacter</em> spp. and <em>Klebsiella pneumoniae</em>, with implications for active surveillance in hospital settings. During her thesis she completed a research stay at Philipps-Universität Marburg applying machine learning and genomic encoding methods to antimicrobial resistance.
@@ -131,11 +134,21 @@ profiles:
           </div>
         </div>
       </li>
-      <li class="user-item" style="line-height: 1.8;">
-        <div class="user-info" style="display: inline-block;">
-          <h4 style="display: inline; margin: 0;">Paula Carracedo-Reboredo, PhD</h4>
-          <span class="user-subtext" style="color: #666; margin-left: 10px;">— Former PhD Student / Researcher</span>
+      <li class="user-item" style="margin-bottom: 2rem; list-style-position: outside;">
+        <h4 style="display: inline; margin: 0;">Paula Carracedo-Reboredo, PhD</h4>
+        <span class="user-subtext" style="color: #666; margin-left: 10px;">— Former PhD Student / Researcher</span>
+        <p class="user-affiliation" style="margin: 5px 0;">
+          <em>Co-supervised with Dr. Sonia Arrasate Gil (UPV/EHU)</em>
+        </p>
+        <p class="user-affiliation" style="margin: 5px 0;">
+          <em>PhD defended October 2023, <strong>Sobresaliente Cum Laude</strong></em>
+        </p>
+        <div class="user-bio" style="font-size: 0.95rem; margin-top: 8px; text-align: justify;">
+          Paula completed her PhD at the University of A Coruña on bioinformatic models for the prediction of biologically active compounds in colon cancer. During her time at the lab she co-authored <a href="https://doi.org/10.1016/j.csbj.2021.08.011" target="_blank" rel="noopener">a highly cited review on machine learning approaches and trends in drug discovery</a>.
         </div>
+        <p style="margin: 8px 0 0 0; font-size: 0.9rem;">
+          <a href="https://www.udc.gal/es/teses/tese/?codigo=n1842" target="_blank" rel="noopener">PhD thesis at UDC</a>
+        </p>
       </li>
     </ul>
   </div>

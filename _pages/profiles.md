@@ -136,7 +136,7 @@ profiles:
       </li>
       <li class="user-item" style="margin-bottom: 2rem; list-style-position: outside;">
         <h4 style="display: inline; margin: 0;">Paula Carracedo-Reboredo, PhD</h4>
-        <span class="user-subtext" style="color: #666; margin-left: 10px;">— Former PhD Student / Researcher</span>
+        <span class="user-subtext" style="color: #666; margin-left: 10px;">— Former PhD Student</span>
         <p class="user-affiliation" style="margin: 5px 0;">
           <em>Co-supervised with Dr. Sonia Arrasate Gil (UPV/EHU)</em>
         </p>

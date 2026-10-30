@@ -8,7 +8,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 3 # leave blank to include all the news in the `_news` folder
+  limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
 Hi!! We investigate omic data using machine learning to unveil patterns in complex diseases, identify biomarkers, and predict outcomes and drug responses, contributing to the advancement of understanding and personalization in life sciences research.

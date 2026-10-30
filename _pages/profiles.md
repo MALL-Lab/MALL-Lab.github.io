@@ -48,13 +48,6 @@ profiles:
       scopus: "https://www.scopus.com/authid/detail.uri?authorId=57226444334&origin=resultslist"
       linkedin: "https://www.linkedin.com/in/diego-fernandez-edreira/"
   - align: left
-    image: about/pguijarro.png
-    content: about_pguijarro.md
-    image_circular: false # crops the image to make it circular
-    social:
-      orcid: "https://orcid.org/0000-0002-8456-0085"
-      google_scholar: "https://scholar.google.com/citations?user=O7TpeZoAAAAJ&hl=en"
-  - align: right
     image: about/falak_pic.png
     content: about_falak.md
     image_circular: false # crops the image to make it circular
@@ -62,7 +55,7 @@ profiles:
       <p>2nd Floor, C-46</p>
       <p>Elviña Campus, CITIC s/n</p>
       <p>15008 A Coruña, Spain</p>
-  - align: left
+  - align: right
     image: about/lmartinez_pic.jpg
     content: about_lmartinez.md
     image_circular: false # crops the image to make it circular
@@ -70,7 +63,7 @@ profiles:
       <p>2nd Floor, C-47</p>
       <p>Elviña Campus, CITIC s/n</p>
       <p>15008 A Coruña, Spain</p>
-  - align: right
+  - align: left
     image: about/smartin_pic.jpg
     content: about_smartin.md
     image_circular: false # crops the image to make it circular
@@ -112,14 +105,39 @@ profiles:
 <div class="user-category">
   <h2 class="category-title">Lab Alumni</h2><br />
   <div class="user-list">
-    <ul style="list-style-type: disc; margin-left: 1.5rem; line-height: 1.8;">      
-      <li class="user-item">
+    <ul style="list-style-type: disc; margin-left: 1.5rem; line-height: 1.6; padding: 0;">
+      <li class="user-item" style="margin-bottom: 3rem; list-style-position: outside;">
+        <div class="user-container" style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
+          <div class="user-info" style="flex: 1; min-width: 250px;">
+            <h4 style="display: inline; margin: 0;">Paula Guijarro Sánchez, PhD</h4>
+            <span class="user-subtext" style="color: #666; margin-left: 10px;">— Former PhD Student</span>
+            <p class="user-affiliation" style="margin: 5px 0;">
+              <em>PhD defended September 2026, <strong>Sobresaliente Cum Laude</strong></em>
+            </p>
+            <div class="user-bio" style="font-size: 0.95rem; margin-top: 8px; text-align: justify;">
+              Paula completed her PhD at the University of A Coruña (INIBIC) on bioinformatics methodologies for the genomic analysis of antibiotic resistance in <em>Acinetobacter</em> spp. and <em>Klebsiella pneumoniae</em>, with implications for active surveillance in hospital settings. During her thesis she completed a research stay at Philipps-Universität Marburg applying machine learning and genomic encoding methods to antimicrobial resistance.
+            </div>
+            <p style="margin: 8px 0 0 0; font-size: 0.9rem;">
+              <a href="https://www.udc.gal/es/teses/tese/?codigo=n2264" target="_blank" rel="noopener">PhD thesis at UDC</a>
+              &nbsp;·&nbsp;
+              <a href="https://orcid.org/0000-0002-8456-0085" target="_blank" rel="noopener">ORCID</a>
+              &nbsp;·&nbsp;
+              <a href="https://scholar.google.com/citations?user=O7TpeZoAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+            </p>
+          </div>
+          <div class="user-photo" style="flex-shrink: 0;">
+            <img src="/assets/img/about/pguijarro.png" alt="Paula Guijarro Sánchez"
+                 style="width: 150px; height: 180px; object-fit: cover; border-radius: 4px; display: block;" />
+          </div>
+        </div>
+      </li>
+      <li class="user-item" style="line-height: 1.8;">
         <div class="user-info" style="display: inline-block;">
           <h4 style="display: inline; margin: 0;">Paula Carracedo-Reboredo, PhD</h4>
           <span class="user-subtext" style="color: #666; margin-left: 10px;">— Former PhD Student / Researcher</span>
         </div>
       </li>
-      </ul>
+    </ul>
   </div>
 </div>
 <br />

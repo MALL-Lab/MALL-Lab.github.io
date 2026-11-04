@@ -3,6 +3,17 @@ layout: page
 ---
 <div class="post">
   <article>
+    {% if page.coordination %}
+      <div class="coordination-note" style="text-align: center; font-size: 0.95rem; color: #666; margin: 0 auto 1.5rem; max-width: 820px; padding: 0.75rem 1rem; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;">
+        Group coordinator: <strong>{{ page.coordination.coordinator }}</strong>
+        &nbsp;·&nbsp;
+        Deputy coordinator: <strong>{{ page.coordination.deputy }}</strong>
+        {% if page.coordination.regulation_url %}
+          <br />
+          <span style="font-size: 0.85rem;">(per UDC <a href="{{ page.coordination.regulation_url }}" target="_blank" rel="noopener">regulation on research groups</a>)</span>
+        {% endif %}
+      </div>
+    {% endif %}
     {% if page.profiles %}
       {% for profile in page.profiles %}
         <hr>

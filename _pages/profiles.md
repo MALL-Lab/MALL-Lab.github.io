@@ -6,6 +6,11 @@ description: Meet the people behind our research
 nav: true
 nav_order: 7
 
+coordination:
+  coordinator: "Prof. Carlos Fernandez-Lozano"
+  deputy: "Dr. Jose Liñares-Blanco"
+  regulation_url: "https://sede.udc.gal/services/electronic_board/EXP2025/011554"
+
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
@@ -74,15 +79,6 @@ profiles:
 ---
 
 <div style="height:3rem"></div>
-
-<div style="text-align: center; font-size: 0.95rem; color: #666; margin: 0 auto 2.5rem; max-width: 820px; padding: 0.75rem 1rem; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;">
-  Group coordinator: <strong>Prof. Carlos Fernandez-Lozano</strong>
-  &nbsp;·&nbsp;
-  Deputy coordinator: <strong>Dr. Jose Liñares-Blanco</strong>
-  <br />
-  <span style="font-size: 0.85rem;">(per UDC <a href="https://sede.udc.gal/services/electronic_board/EXP2025/011554" target="_blank" rel="noopener">regulation on research groups</a>)</span>
-</div>
-
 <div class="user-category">
   <h2 class="category-title">Jointly Supervised Researchers</h2><br />
   <div class="user-list">

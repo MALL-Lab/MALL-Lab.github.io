@@ -14,8 +14,8 @@ profiles:
     content: about_cfernandez.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Despacho 1.07</p>
-      <p>Edificio Área Científica - Universidade da Coruña</p>
+      <p>Office 0.14 (FIC)</p>
+      <p>Elviña Campus, s/n</p>
       <p>15071 A Coruña, Spain</p>
     social:
       github: "https://github.com/cafernandezlo"
@@ -29,17 +29,17 @@ profiles:
     content: about_jlinares.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Wellcome Genome Campus</p>
-      <p>European Bioinformatics Institute (EMBL-EBI)</p>
-      <p>CB10 1SD Hinxton, Cambridgeshire, UK</p>
+      <p>Research Lab 4.1 (FIC)</p>
+      <p>Elviña Campus, s/n</p>
+      <p>15071 A Coruña, Spain</p>
   - align: right
     image: about/dfedreira_pic.webp
     content: about_dfedreira.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>2nd Floor, C-41</p>
-      <p>Elviña Campus, CITIC s/n</p>
-      <p>15008 A Coruña, Spain</p>
+      <p>Research Lab 4.1 (FIC)</p>
+      <p>Elviña Campus, s/n</p>
+      <p>15071 A Coruña, Spain</p>
     social:
       github: "https://github.com/DiegoFE94"
       orcid: "https://orcid.org/0000-0001-6906-3374"
@@ -60,9 +60,9 @@ profiles:
     content: about_lmartinez.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>2nd Floor, C-47</p>
-      <p>Elviña Campus, CITIC s/n</p>
-      <p>15008 A Coruña, Spain</p>
+      <p>Research Lab 4.1 (FIC)</p>
+      <p>Elviña Campus, s/n</p>
+      <p>15071 A Coruña, Spain</p>
   - align: left
     image: about/smartin_pic.jpg
     content: about_smartin.md
@@ -74,6 +74,15 @@ profiles:
 ---
 
 <div style="height:3rem"></div>
+
+<div style="text-align: center; font-size: 0.95rem; color: #666; margin: 0 auto 2.5rem; max-width: 820px; padding: 0.75rem 1rem; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd;">
+  Group coordinator: <strong>Prof. Carlos Fernandez-Lozano</strong>
+  &nbsp;·&nbsp;
+  Deputy coordinator: <strong>Dr. Jose Liñares-Blanco</strong>
+  <br />
+  <span style="font-size: 0.85rem;">(per UDC <a href="https://sede.udc.gal/services/electronic_board/EXP2025/011554" target="_blank" rel="noopener">regulation on research groups</a>)</span>
+</div>
+
 <div class="user-category">
   <h2 class="category-title">Jointly Supervised Researchers</h2><br />
   <div class="user-list">

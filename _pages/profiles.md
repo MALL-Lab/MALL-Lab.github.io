@@ -53,6 +53,18 @@ profiles:
       scopus: "https://www.scopus.com/authid/detail.uri?authorId=57226444334&origin=resultslist"
       linkedin: "https://www.linkedin.com/in/diego-fernandez-edreira/"
   - align: left
+    image: about/dferreiro_pic.jpg
+    content: about_dferreiro.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Research Lab 4.1 (FIC)</p>
+      <p>Elviña Campus, s/n</p>
+      <p>15071 A Coruña, Spain</p>
+    social:
+      github: "https://github.com/DavidFerreiro"
+      orcid: "https://orcid.org/0000-0003-0757-7702"
+      google_scholar: "https://scholar.google.com/citations?user=r27O2oEAAAAJ"
+  - align: right
     image: about/falak_pic.png
     content: about_falak.md
     image_circular: false # crops the image to make it circular
@@ -60,7 +72,7 @@ profiles:
       <p>2nd Floor, C-46</p>
       <p>Elviña Campus, CITIC s/n</p>
       <p>15008 A Coruña, Spain</p>
-  - align: right
+  - align: left
     image: about/lmartinez_pic.jpg
     content: about_lmartinez.md
     image_circular: false # crops the image to make it circular
@@ -68,7 +80,7 @@ profiles:
       <p>Research Lab 4.1 (FIC)</p>
       <p>Elviña Campus, s/n</p>
       <p>15071 A Coruña, Spain</p>
-  - align: left
+  - align: right
     image: about/smartin_pic.jpg
     content: about_smartin.md
     image_circular: false # crops the image to make it circular

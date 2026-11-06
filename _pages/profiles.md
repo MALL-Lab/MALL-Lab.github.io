@@ -37,6 +37,12 @@ profiles:
       <p>Research Lab 4.1 (FIC)</p>
       <p>Elviña Campus, s/n</p>
       <p>15071 A Coruña, Spain</p>
+    social:
+      github: "https://github.com/jlinaresb"
+      orcid: "https://orcid.org/0000-0002-5454-1297"
+      google_scholar: "https://scholar.google.es/citations?user=pKzMNysAAAAJ&hl=es&oi=ao"
+      scopus: "https://www.scopus.com/authid/detail.uri?authorId=57217856706"
+      linkedin: "https://www.linkedin.com/in/jose-li%C3%B1ares-blanco-796608132/"      
   - align: right
     image: about/dfedreira_pic.webp
     content: about_dfedreira.md

@@ -1,3 +1,3 @@
-Diego Fernández-Edreira is a PhD student at the University of A Coruña and a researcher at the Faculty of Informatics (FIC). His research focuses on the convergence of biology and machine learning, using computational approaches to analyze biological interactions in diseases.
+Diego Fernández-Edreira is a PhD student at the University of A Coruña and a researcher at the Faculty of Computer Science (FIC). His research focuses on the convergence of biology and machine learning, using computational approaches to analyze biological interactions in diseases.
 
 As an early-career researcher, Diego has hands-on experience with bioinformatic pipelines for processing next-generation sequencing data, as well as with machine learning and computational biology methods. He has experimented with these techniques across different projects, and his current focus is on microbiome analysis to identify novel biomarkers.

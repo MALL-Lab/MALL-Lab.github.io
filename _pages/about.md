@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Universidade da Coruña - Facultade de Informática
+subtitle: '<a href="https://www.udc.gal/" target="_blank" rel="noopener">Universidade da Coruña</a> - <a href="https://fic.udc.es/" target="_blank" rel="noopener">Facultade de Informática</a>'
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 announcements:

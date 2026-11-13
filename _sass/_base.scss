@@ -1496,3 +1496,11 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// Institutional links in the About page subtitle: show them as links by default.
+.post .post-header .desc a,
+header.post-header .desc a,
+.desc a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: University of A Coruña - CITIC
+subtitle: Universidade da Coruña - Facultade de Informática
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 announcements:

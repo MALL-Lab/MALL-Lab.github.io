@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/software/";
           },
-        },{id: "nav-awards",
-          title: "Awards",
-          description: "Awards, prizes and competitive fellowships received by members of the MALL Lab",
+        },{id: "nav-theses-amp-awards",
+          title: "Theses &amp; Awards",
+          description: "PhD theses supervised by the group, plus awards, prizes and competitive fellowships received by its members.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/awards/";

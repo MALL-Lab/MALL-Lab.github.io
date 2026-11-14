@@ -53,21 +53,32 @@ nav_order: 2
 
     var yearCounts = {};
     var typeCounts = { journal: 0, conference: 0, preprint: 0 };
-    var yearRe = /\b(19\d{2}|20\d{2})\b/;
+
+    function headerYearFor(it) {
+      var ol = it.closest('ol');
+      var cursor = ol ? ol.previousElementSibling : null;
+      while (cursor) {
+        if ((cursor.tagName === 'H2' || cursor.tagName === 'H3')) {
+          var t = cursor.textContent.trim();
+          if (/^(19|20)\d{2}$/.test(t)) return t;
+        }
+        cursor = cursor.previousElementSibling;
+      }
+      return null;
+    }
 
     items.forEach(function (it) {
-      var txt = it.textContent;
-      var m = txt.match(yearRe);
-      if (m) {
-        it.dataset.year = m[1];
-        yearCounts[m[1]] = (yearCounts[m[1]] || 0) + 1;
+      var year = headerYearFor(it);
+      if (year) {
+        it.dataset.year = year;
+        yearCounts[year] = (yearCounts[year] || 0) + 1;
       }
       var type = null;
       if (it.classList.contains('article')) type = 'journal';
       else if (it.classList.contains('inproceedings')) type = 'conference';
       else if (it.classList.contains('inbook')) type = 'chapter';
       else if (it.classList.contains('book')) type = 'book';
-      if (type === 'journal' && /\bPreprint\b/.test(txt)) type = 'preprint';
+      if (type === 'journal' && /\bPreprint\b/.test(it.textContent)) type = 'preprint';
       if (type) {
         it.dataset.type = type;
         typeCounts[type] = (typeCounts[type] || 0) + 1;

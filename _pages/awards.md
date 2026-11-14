@@ -1,18 +1,54 @@
 ---
 layout: page
-title: Awards
+title: "Theses & Awards"
 permalink: /awards/
-description: Awards, prizes and competitive fellowships received by members of the MALL Lab
+description: PhD theses supervised by the group, plus awards, prizes and competitive fellowships received by its members.
 nav: true
 nav_order: 5
 ---
 
 <style>
+  .ta-section { margin-bottom: 2.5rem; }
+  .ta-section h3 { margin-top: 1.25rem; font-weight: 500; }
+  .ta-list { list-style: none; padding-left: 0; }
+  .ta-item { margin-bottom: 1.25rem; padding-left: 0; }
+  .ta-item .ta-title { font-weight: 500; }
+  .ta-item .ta-meta { font-size: 0.9rem; color: var(--global-text-color-light); margin-top: 2px; }
   .badge-student { background-color: #0072B2; color: #ffffff; }
   .badge-research { background-color: #009E73; color: #ffffff; }
   .badge-fellowship { background-color: #E69F00; color: #000000; }
   .awards .badge { font-size: 0.78rem; }
 </style>
+
+## PhD theses supervised
+
+<div class="ta-section">
+  <ul class="ta-list">
+
+    <li class="ta-item">
+      <span class="ta-title">Desarrollo de metodologías bioinformáticas para el análisis genómico de la resistencia a antibióticos en <em>Acinetobacter</em> spp. y <em>Klebsiella pneumoniae</em></span>
+      <div class="ta-meta">Paula Guijarro Sánchez · 2026 · Universidade da Coruña · co-supervised with Dr. Alejandro Beceiro Casas (INIBIC) · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n2264" target="_blank" rel="noopener">UDC thesis record</a></div>
+    </li>
+
+    <li class="ta-item">
+      <span class="ta-title">Análisis computacional del microbioma humano como fuente de biomarcadores clínicos</span>
+      <div class="ta-meta">Diego Fernández-Edreira · 2026 · Universidade da Coruña</div>
+    </li>
+
+    <li class="ta-item">
+      <span class="ta-title">Modelos bioinformáticos para la predicción de compuestos biológicamente activos en cáncer de colon</span>
+      <div class="ta-meta">Paula Carracedo-Reboredo · 2023 · Universidade da Coruña · co-supervised with Dr. Sonia Arrasate Gil (UPV/EHU) · Sobresaliente Cum Laude · <a href="https://www.udc.gal/es/teses/tese/?codigo=n1842" target="_blank" rel="noopener">UDC thesis record</a></div>
+    </li>
+
+    <li class="ta-item">
+      <span class="ta-title">Técnicas de machine learning aplicadas al diagnóstico y tratamiento oncológico de precisión mediante el análisis de datos ómicos</span>
+      <div class="ta-meta">Jose Liñares-Blanco · 2021 · Universidade da Coruña</div>
+    </li>
+
+  </ul>
+</div>
+
+## Awards, prizes and fellowships
 
 <div class="awards">
 

@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-software",
+          title: "Software",
+          description: "Code and tools released by the MALL Lab, with links to each repository and the associated publication.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/software/";
+          },
         },{id: "nav-awards",
           title: "Awards",
           description: "Awards, prizes and competitive fellowships received by members of the MALL Lab",

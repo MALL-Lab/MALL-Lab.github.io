@@ -42,7 +42,7 @@ nav_order: 5
 
     <li class="ta-item">
       <span class="ta-title">Técnicas de machine learning aplicadas al diagnóstico y tratamiento oncológico de precisión mediante el análisis de datos ómicos</span>
-      <div class="ta-meta">Jose Liñares-Blanco · 2021 · Universidade da Coruña · supervised by Carlos Fernandez-Lozano, co-supervised with Dr. José Antonio Seoane Fernández · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n613" target="_blank" rel="noopener">UDC thesis record</a></div>
+      <div class="ta-meta">Jose Liñares-Blanco · 2021 · Universidade da Coruña · supervised by Carlos Fernandez-Lozano, co-supervised with Dr. José Antonio Seoane Fernández (VHIO) · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n613" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
   </ul>

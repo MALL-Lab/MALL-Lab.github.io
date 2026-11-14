@@ -26,22 +26,22 @@ nav_order: 5
   <ul class="ta-list">
 
     <li class="ta-item">
-      <span class="ta-title">Desarrollo de metodologías bioinformáticas para el análisis genómico de la resistencia a antibióticos en <em>Acinetobacter</em> spp. y <em>Klebsiella pneumoniae</em></span>
+      <span class="ta-title">Development of bioinformatics methodologies for the genomic analysis of antibiotic resistance in <em>Acinetobacter</em> spp. and <em>Klebsiella pneumoniae</em></span>
       <div class="ta-meta">Paula Guijarro Sánchez · 2026 · Universidade da Coruña · supervised by Dr. Carlos Fernandez-Lozano, co-supervised with Dr. Alejandro Beceiro Casas (INIBIC) · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n2264" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
     <li class="ta-item">
-      <span class="ta-title">Análisis computacional del microbioma humano como fuente de biomarcadores clínicos</span>
+      <span class="ta-title">Computational analysis of the human microbiome as a source of clinical biomarkers</span>
       <div class="ta-meta">Diego Fernández-Edreira · 2026 · Universidade da Coruña · supervised by Dr. Carlos Fernandez-Lozano and Dr. Jose Liñares-Blanco · Sobresaliente Cum Laude · <a href="https://www.udc.gal/es/teses/tese/?codigo=n2191" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
     <li class="ta-item">
-      <span class="ta-title">Modelos bioinformáticos para la predicción de compuestos biológicamente activos en cáncer de colon</span>
+      <span class="ta-title">Bioinformatic models for the prediction of biologically active compounds in colon cancer</span>
       <div class="ta-meta">Paula Carracedo-Reboredo · 2023 · Universidade da Coruña · supervised by Dr. Carlos Fernandez-Lozano, co-supervised with Dr. Sonia Arrasate Gil (UPV/EHU) · Sobresaliente Cum Laude · <a href="https://www.udc.gal/es/teses/tese/?codigo=n1842" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
     <li class="ta-item">
-      <span class="ta-title">Técnicas de machine learning aplicadas al diagnóstico y tratamiento oncológico de precisión mediante el análisis de datos ómicos</span>
+      <span class="ta-title">Machine learning techniques applied to precision oncology diagnosis and treatment through the analysis of omic data</span>
       <div class="ta-meta">Jose Liñares-Blanco · 2021 · Universidade da Coruña · supervised by Dr. Carlos Fernandez-Lozano, co-supervised with Dr. José Antonio Seoane Fernández (VHIO) · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n613" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
@@ -57,7 +57,7 @@ nav_order: 5
   <li>
     <span class="badge badge-pill badge-student mr-2">Student Award</span>
     <strong>First Prize, XI Premios TFG Aplicado del GEI</strong>.
-    Awarded to Raúl Mouzo Quiza, for the work <em>"Plataforma integrada para la simulación de docking molecular y el análisis de firmas genéticas en entornos HPC y cloud"</em>.
+    Awarded to Raúl Mouzo Quiza, for the work <em>"Integrated platform for molecular docking simulation and gene signature analysis in HPC and cloud environments"</em>.
   </li>
 </ul>
 
@@ -91,7 +91,7 @@ nav_order: 5
   <li>
     <span class="badge badge-pill badge-student mr-2">Student Award</span>
     <strong>First Prize, IV Premios TFG Aplicado de la FIC</strong>.
-    Awarded to Elena Botana de Castro, for the work <em>"Sistema de prevención de intrusiones en redes Wireless basadas en tecnología Wi-Fi"</em>.
+    Awarded to Elena Botana de Castro, for the work <em>"Intrusion prevention system for Wireless networks based on Wi-Fi technology"</em>.
   </li>
 </ul>
 

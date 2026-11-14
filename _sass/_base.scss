@@ -1497,6 +1497,32 @@ mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
 
+// Publications page stats row
+.pub-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: 12px;
+  margin: 0 0 2.5rem;
+}
+.pub-stat {
+  background: var(--global-card-bg-color);
+  border: 0.5px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 14px 10px;
+  text-align: center;
+}
+.pub-stat-num {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--global-text-color);
+  line-height: 1.1;
+}
+.pub-stat-lab {
+  font-size: 0.85rem;
+  color: var(--global-text-color-light);
+  margin-top: 4px;
+}
+
 // Research lines band on the About page
 .mall-band {
   background: var(--global-card-bg-color);

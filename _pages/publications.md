@@ -38,11 +38,6 @@ nav_order: 2
   </div>
 </div>
 
-<div class="pub-chart-wrap">
-  <div class="pub-chart-label">Publications per year</div>
-  <div id="pub-chart" class="pub-chart" aria-label="Publications per year, bar chart"></div>
-</div>
-
 <div id="pub-filters" class="pub-filters" aria-label="Filter publications by year or type"></div>
 
 {% include bib_search.liquid %}
@@ -136,7 +131,7 @@ nav_order: 2
       yrLabel.className = 'pub-filter-group-label';
       yrLabel.textContent = 'Year';
       yrGroup.appendChild(yrLabel);
-      years.forEach(function (y) { yrGroup.appendChild(makeChip(y, yearCounts[y], 'year', y)); });
+      years.slice(0, 5).forEach(function (y) { yrGroup.appendChild(makeChip(y, yearCounts[y], 'year', y)); });
       filtersRoot.appendChild(yrGroup);
 
       var typeGroup = document.createElement('div');
@@ -151,31 +146,5 @@ nav_order: 2
       filtersRoot.appendChild(typeGroup);
     }
 
-    var chartRoot = document.getElementById('pub-chart');
-    if (chartRoot) {
-      var chartYears = years.slice().reverse();
-      var maxCount = Math.max.apply(null, chartYears.map(function (y) { return yearCounts[y]; }));
-      chartYears.forEach(function (y) {
-        var bar = document.createElement('button');
-        bar.type = 'button';
-        bar.className = 'pub-chart-bar';
-        bar.dataset.year = y;
-        bar.style.height = Math.max(3, Math.round((yearCounts[y] / maxCount) * 100)) + '%';
-        bar.title = y + ': ' + yearCounts[y];
-        var lbl = document.createElement('span');
-        lbl.className = 'bar-label';
-        lbl.textContent = "'" + y.slice(2);
-        bar.appendChild(lbl);
-        var cnt = document.createElement('span');
-        cnt.className = 'bar-count';
-        cnt.textContent = yearCounts[y];
-        bar.appendChild(cnt);
-        bar.addEventListener('click', function () {
-          state.year = state.year === y ? null : y;
-          applyFilter();
-        });
-        chartRoot.appendChild(bar);
-      });
-    }
   })();
 </script>

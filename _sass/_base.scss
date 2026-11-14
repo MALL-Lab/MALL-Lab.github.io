@@ -1585,62 +1585,6 @@ html[data-theme="dark"] .sw-chip.lang-sh { background: rgba(80, 180, 150, 0.15);
 }
 .sw-link:hover { text-decoration: underline; }
 
-// Publications page: bar chart per year
-.pub-chart-wrap {
-  margin: 0 0 24px;
-}
-.pub-chart-label {
-  font-size: 12px;
-  color: var(--global-text-color-light);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  margin-bottom: 10px;
-}
-.pub-chart {
-  display: flex;
-  align-items: flex-end;
-  gap: 3px;
-  height: 60px;
-  padding: 0 2px 16px;
-}
-.pub-chart-bar {
-  flex: 1 1 0;
-  background: var(--global-theme-color);
-  opacity: 0.55;
-  border: none;
-  border-radius: 2px 2px 0 0;
-  min-height: 3px;
-  padding: 0;
-  cursor: pointer;
-  position: relative;
-  transition: opacity 0.15s;
-}
-.pub-chart-bar:hover,
-.pub-chart-bar:focus-visible { opacity: 1; outline: none; }
-.pub-chart-bar .bar-label {
-  position: absolute;
-  bottom: -14px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 10px;
-  color: var(--global-text-color-light);
-  white-space: nowrap;
-}
-.pub-chart-bar .bar-count {
-  position: absolute;
-  top: -16px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 11px;
-  font-weight: 500;
-  color: var(--global-text-color);
-  opacity: 0;
-  transition: opacity 0.15s;
-  pointer-events: none;
-}
-.pub-chart-bar:hover .bar-count,
-.pub-chart-bar:focus-visible .bar-count { opacity: 1; }
-
 // Publications page: filter chips (year, type)
 .pub-filters {
   display: flex;

@@ -32,7 +32,7 @@ nav_order: 5
 
     <li class="ta-item">
       <span class="ta-title">Análisis computacional del microbioma humano como fuente de biomarcadores clínicos</span>
-      <div class="ta-meta">Diego Fernández-Edreira · 2026 · Universidade da Coruña</div>
+      <div class="ta-meta">Diego Fernández-Edreira · 2026 · Universidade da Coruña · Sobresaliente Cum Laude · <a href="https://www.udc.gal/es/teses/tese/?codigo=n2191" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
     <li class="ta-item">
@@ -42,7 +42,7 @@ nav_order: 5
 
     <li class="ta-item">
       <span class="ta-title">Técnicas de machine learning aplicadas al diagnóstico y tratamiento oncológico de precisión mediante el análisis de datos ómicos</span>
-      <div class="ta-meta">Jose Liñares-Blanco · 2021 · Universidade da Coruña</div>
+      <div class="ta-meta">Jose Liñares-Blanco · 2021 · Universidade da Coruña · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n613" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
   </ul>

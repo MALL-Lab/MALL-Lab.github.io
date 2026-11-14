@@ -38,8 +38,144 @@ nav_order: 2
   </div>
 </div>
 
+<div class="pub-chart-wrap">
+  <div class="pub-chart-label">Publications per year</div>
+  <div id="pub-chart" class="pub-chart" aria-label="Publications per year, bar chart"></div>
+</div>
+
+<div id="pub-filters" class="pub-filters" aria-label="Filter publications by year or type"></div>
+
 {% include bib_search.liquid %}
 
 <div class="publications">
   {{ bib_content }}
 </div>
+
+<script>
+  (function () {
+    var items = document.querySelectorAll('.bibtex-item');
+    if (!items.length) return;
+
+    var yearCounts = {};
+    var typeCounts = { journal: 0, conference: 0, preprint: 0 };
+    var yearRe = /\b(19\d{2}|20\d{2})\b/;
+
+    items.forEach(function (it) {
+      var txt = it.textContent;
+      var m = txt.match(yearRe);
+      if (m) {
+        it.dataset.year = m[1];
+        yearCounts[m[1]] = (yearCounts[m[1]] || 0) + 1;
+      }
+      var type = null;
+      if (it.classList.contains('article')) type = 'journal';
+      else if (it.classList.contains('inproceedings')) type = 'conference';
+      else if (it.classList.contains('inbook')) type = 'chapter';
+      else if (it.classList.contains('book')) type = 'book';
+      if (type === 'journal' && /\bPreprint\b/.test(txt)) type = 'preprint';
+      if (type) {
+        it.dataset.type = type;
+        typeCounts[type] = (typeCounts[type] || 0) + 1;
+      }
+    });
+
+    var state = { year: null, type: null };
+
+    function applyFilter() {
+      items.forEach(function (it) {
+        var ok = true;
+        if (state.year && it.dataset.year !== state.year) ok = false;
+        if (state.type && it.dataset.type !== state.type) ok = false;
+        var row = it.closest('li') || it;
+        row.style.display = ok ? '' : 'none';
+      });
+      document.querySelectorAll('.pub-filter-chip').forEach(function (c) {
+        var active = (c.dataset.year && c.dataset.year === state.year) ||
+                     (c.dataset.type && c.dataset.type === state.type);
+        c.classList.toggle('is-active', active);
+      });
+      // Hide year headers (h2 or h3 with year) that have no visible items beneath them
+      document.querySelectorAll('h2, h3').forEach(function (h) {
+        var txt = h.textContent.trim();
+        if (/^(19|20)\d{2}$/.test(txt)) {
+          var next = h.nextElementSibling;
+          var anyVisible = false;
+          while (next && next.tagName !== 'H2' && next.tagName !== 'H3') {
+            if (next.querySelectorAll) {
+              next.querySelectorAll('li').forEach(function (li) {
+                if (li.style.display !== 'none') anyVisible = true;
+              });
+            }
+            next = next.nextElementSibling;
+          }
+          h.style.display = anyVisible || (!state.year && !state.type) ? '' : 'none';
+        }
+      });
+    }
+
+    function makeChip(label, count, attr, value) {
+      var b = document.createElement('button');
+      b.className = 'pub-filter-chip';
+      b.type = 'button';
+      b.dataset[attr] = value;
+      b.innerHTML = label + ' <span class="chip-count">' + count + '</span>';
+      b.addEventListener('click', function () {
+        state[attr] = state[attr] === value ? null : value;
+        applyFilter();
+      });
+      return b;
+    }
+
+    var years = Object.keys(yearCounts).sort(function (a, b) { return b - a; });
+
+    var filtersRoot = document.getElementById('pub-filters');
+    if (filtersRoot) {
+      var yrGroup = document.createElement('div');
+      yrGroup.className = 'pub-filter-group';
+      var yrLabel = document.createElement('span');
+      yrLabel.className = 'pub-filter-group-label';
+      yrLabel.textContent = 'Year';
+      yrGroup.appendChild(yrLabel);
+      years.forEach(function (y) { yrGroup.appendChild(makeChip(y, yearCounts[y], 'year', y)); });
+      filtersRoot.appendChild(yrGroup);
+
+      var typeGroup = document.createElement('div');
+      typeGroup.className = 'pub-filter-group';
+      var typeLabel = document.createElement('span');
+      typeLabel.className = 'pub-filter-group-label';
+      typeLabel.textContent = 'Type';
+      typeGroup.appendChild(typeLabel);
+      [['Journal', 'journal'], ['Conference', 'conference'], ['Preprint', 'preprint']].forEach(function (pair) {
+        if (typeCounts[pair[1]]) typeGroup.appendChild(makeChip(pair[0], typeCounts[pair[1]], 'type', pair[1]));
+      });
+      filtersRoot.appendChild(typeGroup);
+    }
+
+    var chartRoot = document.getElementById('pub-chart');
+    if (chartRoot) {
+      var chartYears = years.slice().reverse();
+      var maxCount = Math.max.apply(null, chartYears.map(function (y) { return yearCounts[y]; }));
+      chartYears.forEach(function (y) {
+        var bar = document.createElement('button');
+        bar.type = 'button';
+        bar.className = 'pub-chart-bar';
+        bar.dataset.year = y;
+        bar.style.height = Math.max(3, Math.round((yearCounts[y] / maxCount) * 100)) + '%';
+        bar.title = y + ': ' + yearCounts[y];
+        var lbl = document.createElement('span');
+        lbl.className = 'bar-label';
+        lbl.textContent = "'" + y.slice(2);
+        bar.appendChild(lbl);
+        var cnt = document.createElement('span');
+        cnt.className = 'bar-count';
+        cnt.textContent = yearCounts[y];
+        bar.appendChild(cnt);
+        bar.addEventListener('click', function () {
+          state.year = state.year === y ? null : y;
+          applyFilter();
+        });
+        chartRoot.appendChild(bar);
+      });
+    }
+  })();
+</script>

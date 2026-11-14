@@ -1497,6 +1497,94 @@ mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
 
+// Software page cards
+.sw-section-label {
+  font-size: 13px;
+  color: var(--global-text-color-light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0 0 10px;
+}
+.sw-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+  margin: 0 0 28px;
+}
+.sw-card {
+  background: var(--global-card-bg-color);
+  border: 0.5px solid var(--global-divider-color);
+  border-radius: 12px;
+  padding: 18px 18px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sw-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.sw-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--global-text-color);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sw-title i {
+  color: var(--global-text-color-light);
+  font-size: 18px;
+}
+.sw-desc {
+  font-size: 14px;
+  color: var(--global-text-color-light);
+  line-height: 1.5;
+  margin: 0;
+}
+.sw-chip {
+  font-size: 12px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  border: 0.5px solid var(--global-divider-color);
+  color: var(--global-text-color-light);
+}
+.sw-chip.lang-r { background: rgba(35, 52, 82, 0.08); color: #233452; border-color: rgba(35, 52, 82, 0.3); }
+.sw-chip.lang-py { background: rgba(198, 0, 125, 0.08); color: #C6007D; border-color: rgba(198, 0, 125, 0.3); }
+.sw-chip.lang-sh { background: rgba(15, 110, 86, 0.08); color: #0F6E56; border-color: rgba(15, 110, 86, 0.3); }
+html[data-theme="dark"] .sw-chip.lang-r { background: rgba(120, 160, 230, 0.15); color: #a8c6ef; border-color: rgba(120, 160, 230, 0.4); }
+html[data-theme="dark"] .sw-chip.lang-py { background: rgba(234, 120, 180, 0.15); color: #ed9bc2; border-color: rgba(234, 120, 180, 0.4); }
+html[data-theme="dark"] .sw-chip.lang-sh { background: rgba(80, 180, 150, 0.15); color: #7bd4b0; border-color: rgba(80, 180, 150, 0.4); }
+.sw-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 6px;
+  flex-wrap: wrap;
+}
+.sw-footer-left {
+  font-size: 12px;
+  color: var(--global-text-color-light);
+  font-style: italic;
+}
+.sw-footer-right {
+  display: flex;
+  gap: 14px;
+}
+.sw-link {
+  font-size: 13px;
+  color: var(--global-theme-color);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.sw-link:hover { text-decoration: underline; }
+
 // Publications page stats row
 .pub-stats {
   display: grid;

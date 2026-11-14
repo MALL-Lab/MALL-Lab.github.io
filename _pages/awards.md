@@ -4,7 +4,7 @@ title: Awards
 permalink: /awards/
 description: Awards, prizes and competitive fellowships received by members of the MALL Lab
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 <style>

@@ -27,22 +27,22 @@ nav_order: 5
 
     <li class="ta-item">
       <span class="ta-title">Desarrollo de metodologías bioinformáticas para el análisis genómico de la resistencia a antibióticos en <em>Acinetobacter</em> spp. y <em>Klebsiella pneumoniae</em></span>
-      <div class="ta-meta">Paula Guijarro Sánchez · 2026 · Universidade da Coruña · supervised by Carlos Fernandez-Lozano, co-supervised with Dr. Alejandro Beceiro Casas (INIBIC) · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n2264" target="_blank" rel="noopener">UDC thesis record</a></div>
+      <div class="ta-meta">Paula Guijarro Sánchez · 2026 · Universidade da Coruña · supervised by Dr. Carlos Fernandez-Lozano, co-supervised with Dr. Alejandro Beceiro Casas (INIBIC) · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n2264" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
     <li class="ta-item">
       <span class="ta-title">Análisis computacional del microbioma humano como fuente de biomarcadores clínicos</span>
-      <div class="ta-meta">Diego Fernández-Edreira · 2026 · Universidade da Coruña · supervised by Carlos Fernandez-Lozano and Jose Liñares-Blanco · Sobresaliente Cum Laude · <a href="https://www.udc.gal/es/teses/tese/?codigo=n2191" target="_blank" rel="noopener">UDC thesis record</a></div>
+      <div class="ta-meta">Diego Fernández-Edreira · 2026 · Universidade da Coruña · supervised by Dr. Carlos Fernandez-Lozano and Dr. Jose Liñares-Blanco · Sobresaliente Cum Laude · <a href="https://www.udc.gal/es/teses/tese/?codigo=n2191" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
     <li class="ta-item">
       <span class="ta-title">Modelos bioinformáticos para la predicción de compuestos biológicamente activos en cáncer de colon</span>
-      <div class="ta-meta">Paula Carracedo-Reboredo · 2023 · Universidade da Coruña · supervised by Carlos Fernandez-Lozano, co-supervised with Dr. Sonia Arrasate Gil (UPV/EHU) · Sobresaliente Cum Laude · <a href="https://www.udc.gal/es/teses/tese/?codigo=n1842" target="_blank" rel="noopener">UDC thesis record</a></div>
+      <div class="ta-meta">Paula Carracedo-Reboredo · 2023 · Universidade da Coruña · supervised by Dr. Carlos Fernandez-Lozano, co-supervised with Dr. Sonia Arrasate Gil (UPV/EHU) · Sobresaliente Cum Laude · <a href="https://www.udc.gal/es/teses/tese/?codigo=n1842" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
     <li class="ta-item">
       <span class="ta-title">Técnicas de machine learning aplicadas al diagnóstico y tratamiento oncológico de precisión mediante el análisis de datos ómicos</span>
-      <div class="ta-meta">Jose Liñares-Blanco · 2021 · Universidade da Coruña · supervised by Carlos Fernandez-Lozano, co-supervised with Dr. José Antonio Seoane Fernández (VHIO) · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n613" target="_blank" rel="noopener">UDC thesis record</a></div>
+      <div class="ta-meta">Jose Liñares-Blanco · 2021 · Universidade da Coruña · supervised by Dr. Carlos Fernandez-Lozano, co-supervised with Dr. José Antonio Seoane Fernández (VHIO) · Sobresaliente Cum Laude with International Mention · <a href="https://www.udc.gal/es/teses/tese/?codigo=n613" target="_blank" rel="noopener">UDC thesis record</a></div>
     </li>
 
   </ul>

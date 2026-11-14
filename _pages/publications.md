@@ -96,8 +96,8 @@ nav_order: 2
         row.style.display = ok ? '' : 'none';
       });
       document.querySelectorAll('.pub-filter-chip').forEach(function (c) {
-        var active = (c.dataset.year && c.dataset.year === state.year) ||
-                     (c.dataset.type && c.dataset.type === state.type);
+        var active = (c.dataset.year === state.year && state.year !== null) ||
+                     (c.dataset.type === state.type && state.type !== null);
         c.classList.toggle('is-active', active);
       });
       // Hide year headers (h2 or h3 with year) that have no visible items beneath them

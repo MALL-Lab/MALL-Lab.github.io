@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New preprint on bioRxiv: [Heterogeneous graph neural networks with biological prior knowledge for interpretable drug repurposing in triple-negative breast cancer](https://doi.org/10.64898/2026.09.08.750045)
+New preprint on bioRxiv: [Transcription factor activities as a shared representation for drug repurposing hypotheses in breast cancer](https://doi.org/10.64898/2026.09.08.750045)

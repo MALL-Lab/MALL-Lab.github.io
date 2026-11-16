@@ -176,9 +176,3 @@ profiles:
     </ul>
   </div>
 </div>
-<br />
-<br />
-<br />
-<div style="text-align:center; margin-bottom:3rem;">
-  <img src="/assets/img/about/Lab_photo.jpg" alt="Lab photo" style="max-width:100%;height:auto;display:inline-block;" />
-</div>
